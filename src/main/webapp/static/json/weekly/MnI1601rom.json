@@ -1,0 +1,158 @@
+[
+  {
+    "numeZi": "Luni",
+    "lectii": [
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Limbaje formale si automate",
+        "tip": "curs",
+        "profesor": "G.Sturza",
+        "cabinet": "401/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Etica",
+        "tip": "sem",
+        "profesor": "Gh.Capatana",
+        "cabinet": "218/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Criptografie",
+        "tip": "lab",
+        "profesor": "O.Cerbu",
+        "cabinet": "145/a",
+        "paritate": "-",
+        "subgrupa": "-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Marti",
+    "lectii": [
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "LFA",
+        "tip": "sem",
+        "profesor": "G.Sturza",
+        "cabinet": "415/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "T.Bragaru",
+        "cabinet": "218/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "T.Bragaru",
+        "cabinet": "145a/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Miercuri",
+    "lectii": [
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Criptografie",
+        "tip": "lab",
+        "profesor": "O.Cerbu",
+        "cabinet": "251/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Criptografie",
+        "tip": "curs",
+        "profesor": "O.Cerbu",
+        "cabinet": "113/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Joi",
+    "lectii": [
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "LFA",
+        "tip": "sem",
+        "profesor": "G.Sturza",
+        "cabinet": "419/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "T.Bragaru",
+        "cabinet": "218/4",
+        "paritate": "imp",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "A.Tkacenko",
+        "cabinet": "218/4",
+        "paritate": "par",
+        "subgrupa": "-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Vineri",
+    "lectii": [
+      {
+        "ora": "9:45-11:15",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "A.Tkacenko",
+        "cabinet": "419/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "A.Tkacenko",
+        "cabinet": "328/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Sambata",
+    "lectii": [
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Nume disciplina",
+        "tip": "curs/lab/sem",
+        "profesor": "Nume Profesor",
+        "cabinet": "Nr.cabinet",
+        "paritate": "par/imp",
+        "subgrupa": "I/II"
+      }
+    ]
+  }
+]

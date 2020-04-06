@@ -1,0 +1,8 @@
+*.iml
+*~
+.gradle
+.gradle-files
+/local.properties
+.idea
+/.bash_history
+target

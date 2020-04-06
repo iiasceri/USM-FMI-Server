@@ -1,0 +1,252 @@
+[
+  {
+    "numeZi": "Luni",
+    "lectii": [
+      {
+        "ora": "9:45-11:15",
+        "disciplina": "LFA",
+        "tip": "sem",
+        "profesor": "M.Butnaru",
+        "cabinet": "419/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "LFA",
+        "tip": "curs",
+        "profesor": "G.Sturza",
+        "cabinet": "401/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "O.Cerbu",
+        "cabinet": "145a/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      }
+    ]
+  },
+  {
+    "numeZi": "Marti",
+    "lectii": [
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "V.Carhana",
+        "cabinet": "253/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "V.Carhana",
+        "cabinet": "404/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Sec BD",
+        "tip": "lab",
+        "profesor": "T.Pasa",
+        "cabinet": "237/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "V.Carhana",
+        "cabinet": "404/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Sec Ret.",
+        "tip": "lab",
+        "profesor": "O.Cerbu",
+        "cabinet": "113/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      }
+    ]
+  },
+  {
+    "numeZi": "Miercuri",
+    "lectii": [
+      {
+        "ora": "9:45-11:15",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "N.Plesca",
+        "cabinet": "218/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "N.Plesca",
+        "cabinet": "328/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Sec BD",
+        "tip": "lab",
+        "profesor": "T.Pasa",
+        "cabinet": "237/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "O.Cerbu",
+        "cabinet": "113/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "O.Cerbu",
+        "cabinet": "145a/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      }
+    ]
+  },
+  {
+    "numeZi": "Joi",
+    "lectii": [
+      {
+        "ora": "9:45-11:15",
+        "disciplina": "LFA",
+        "tip": "sem",
+        "profesor": "M.Butnaru",
+        "cabinet": "419/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Pachet optional",
+        "tip": "curs",
+        "profesor": "G.Sturza",
+        "cabinet": "401/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "N.Plesca",
+        "cabinet": "328/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Sec BD",
+        "tip": "sem",
+        "profesor": "T.Pasa",
+        "cabinet": "237/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Sec BD",
+        "tip": "lab",
+        "profesor": "T.Pasa",
+        "cabinet": "237/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      }
+    ]
+  },
+  {
+    "numeZi": "Vineri",
+    "lectii": [
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Etica",
+        "tip": "sem",
+        "profesor": "Gh.Capatana",
+        "cabinet": "419/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Etica",
+        "tip": "curs",
+        "profesor": "Gh.Capatana",
+        "cabinet": "213a/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "N.Plesca",
+        "cabinet": "401/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Sec Ret.",
+        "tip": "lab",
+        "profesor": "O.Cerbu",
+        "cabinet": "326/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "N.Plesca",
+        "cabinet": "328/4",
+        "paritate": "imp",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Sec Ret.",
+        "tip": "lab",
+        "profesor": "O.Cerbu",
+        "cabinet": "326/4",
+        "paritate": "imp",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "N.Plesca",
+        "cabinet": "328/4",
+        "paritate": "par",
+        "subgrupa": "I"
+      }
+    ]
+  }
+]

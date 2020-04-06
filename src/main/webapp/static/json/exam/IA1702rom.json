@@ -1,0 +1,65 @@
+[
+  {
+    "dataExamen": "18/12/18",
+    "ziExamen": "Marti",
+    "ora": "08:00",
+    "disciplina": "Baze de date",
+    "asistent": "V.Siminel",
+    "cabinet": "404/4",
+    "subgrupa": "-"
+  },
+  {
+    "dataExamen": "22/12/18",
+    "ziExamen": "Sambata",
+    "ora": "11:00",
+    "disciplina": "Principiile testarii software",
+    "asistent": "V.Primac",
+    "cabinet": "405/4",
+    "subgrupa": "-"
+  },
+  {
+    "dataExamen": "11/01/19",
+    "ziExamen": "Vineri",
+    "ora": "08:00",
+    "disciplina": "Algoritmica\ngrafurilor",
+    "asistent": "C.Turcanu",
+    "cabinet": "113/4",
+    "subgrupa": "-"
+  },
+  {
+    "dataExamen": "11/01/19",
+    "ziExamen": "Luni",
+    "ora": "11:00",
+    "disciplina": "Cultura Comunicarii",
+    "asistent": "N.Toma",
+    "cabinet": "113/4",
+    "subgrupa": "-"
+  },
+  {
+    "dataExamen": "11/01/19",
+    "ziExamen": "Vineri",
+    "ora": "08:00",
+    "disciplina": "Programare\norientata pe obiecte",
+    "asistent": "A.Prepelita",
+    "cabinet": "113/4",
+    "subgrupa": "-"
+  },
+  {
+    "dataExamen": "22/01/19",
+    "ziExamen": "Marti",
+    "ora": "08:00",
+    "disciplina": "Probabilitati si statistica",
+    "asistent": "I.Cucu",
+    "cabinet": "113/4",
+    "subgrupa": "-"
+  },
+  {
+    "dataExamen": "22/01/19",
+    "ziExamen": "Vineri",
+    "ora": "08:00",
+    "disciplina": "Retele de calculatoare",
+    "asistent": "A.Gladei",
+    "cabinet": "251/4",
+    "subgrupa": "-"
+  }
+]

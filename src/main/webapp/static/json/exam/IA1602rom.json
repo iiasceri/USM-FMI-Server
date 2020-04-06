@@ -1,0 +1,74 @@
+[
+  {
+    "dataExamen": "28/02/2019",
+    "ziExamen": "Joi",
+    "ora": "17:30",
+    "disciplina": "Sec. Retelelor",
+    "asistent": "O.Cerbu",
+    "cabinet": "404/4",
+    "subgrupa": "I"
+  },
+  {
+    "dataExamen": "28/02/2019",
+    "ziExamen": "Joi",
+    "ora": "15:05",
+    "disciplina": "Criptografie si sec. inf.",
+    "asistent": "O.Cerbu",
+    "cabinet": "404/4",
+    "subgrupa": "II"
+  },
+  {
+    "dataExamen": "04/03/2019",
+    "ziExamen": "Luni",
+    "ora": "15:05",
+    "disciplina": "Securitatea app WEB",
+    "asistent": "N.Plesca",
+    "cabinet": "401/4",
+    "subgrupa": "I"
+  },
+  {
+    "dataExamen": "04/03/2019",
+    "ziExamen": "Luni",
+    "ora": "15:05",
+    "disciplina": "Limbaje de structurare a datelor",
+    "asistent": "V.Carhana",
+    "cabinet": "404/4",
+    "subgrupa": "II"
+  },
+  {
+    "dataExamen": "07/03/2019",
+    "ziExamen": "Joi",
+    "ora": "15:05",
+    "disciplina": "Aspecte etice in informatica",
+    "asistent": "Gh.Capatana",
+    "cabinet": "404/4",
+    "subgrupa": "-"
+  },
+  {
+    "dataExamen": "11/03/2019",
+    "ziExamen": "Luni",
+    "ora": "15:05",
+    "disciplina": "Limbaje formale si automate",
+    "asistent": "G.Sturza",
+    "cabinet": "404/4",
+    "subgrupa": "-"
+  },
+  {
+    "dataExamen": "15/03/2019",
+    "ziExamen": "Vineri",
+    "ora": "11:00",
+    "disciplina": "Securitatea BD",
+    "asistent": "T.Pasa",
+    "cabinet": "419/4",
+    "subgrupa": "I"
+  },
+  {
+    "dataExamen": "15/03/2019",
+    "ziExamen": "Vineri",
+    "ora": "13:30",
+    "disciplina": "Dezvoltarea interfetelor adaptive",
+    "asistent": "N.Plesca",
+    "cabinet": "401/4",
+    "subgrupa": "II"
+  }
+]

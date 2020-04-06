@@ -1,0 +1,86 @@
+[
+  {
+    "numeZi": "Luni",
+    "lectii": [
+      {
+        "ora": "8:00-9:30",
+        "disciplina": "Nume disciplina",
+        "tip": "curs/lab/sem",
+        "profesor": "Nume Profesor",
+        "cabinet": "Nr.cabinet",
+        "paritate": "par/imp/-",
+        "subgrupa": "I/II/-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Marti",
+    "lectii": [
+      {
+        "ora": "9:45-11:15",
+        "disciplina": "Nume disciplina",
+        "tip": "curs/lab/sem",
+        "profesor": "Nume Profesor",
+        "cabinet": "Nr.cabinet",
+        "paritate": "par/imp/-",
+        "subgrupa": "I/II/-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Miercuri",
+    "lectii": [
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Nume disciplina",
+        "tip": "curs/lab/sem",
+        "profesor": "Nume Profesor",
+        "cabinet": "Nr.cabinet",
+        "paritate": "par/imp/-",
+        "subgrupa": "I/II/-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Joi",
+    "lectii": [
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Nume disciplina",
+        "tip": "curs/lab/sem",
+        "profesor": "Nume Profesor",
+        "cabinet": "Nr.cabinet",
+        "paritate": "par/imp/-",
+        "subgrupa": "I/II/-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Vineri",
+    "lectii": [
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Nume disciplina",
+        "tip": "curs/lab/sem",
+        "profesor": "Nume Profesor",
+        "cabinet": "Nr.cabinet",
+        "paritate": "par/imp/-",
+        "subgrupa": "I/II/-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Sambata",
+    "lectii": [
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Nume disciplina",
+        "tip": "curs/lab/sem",
+        "profesor": "Nume Profesor",
+        "cabinet": "Nr.cabinet",
+        "paritate": "par/imp/-",
+        "subgrupa": "I/II/-"
+      }
+    ]
+  }
+]

@@ -1,0 +1,248 @@
+[
+  {
+    "numeZi": "Luni",
+    "lectii": [
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Tehnici avansate de programare",
+        "tip": "lab",
+        "profesor": "I.Epifanova",
+        "cabinet": "327/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Intelig.artific.",
+        "tip": "lab",
+        "profesor": "V.Grigorcea",
+        "cabinet": "145b/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Tehnici avansate de programare",
+        "tip": "curs",
+        "profesor": "I.Epifanova",
+        "cabinet": "113/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Marti",
+    "lectii": [
+      {
+        "ora": "9:45-11:15",
+        "disciplina": "Testarea",
+        "tip": "curs",
+        "profesor": "C.Isacova",
+        "cabinet": "401/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Testarea",
+        "tip": "lab",
+        "profesor": "C.Isacova",
+        "cabinet": "251/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "ASDC",
+        "tip": "lab",
+        "profesor": "L.Novac",
+        "cabinet": "328/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Miercuri",
+    "lectii": [
+      {
+        "ora": "8:00-9:30",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "M.Croitor",
+        "cabinet": "251/4",
+        "paritate": "par",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "9:45-11:15",
+        "disciplina": "Inteligenta artificiala",
+        "tip": "curs",
+        "profesor": "V.Gricorcea",
+        "cabinet": "113/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Pachet optional",
+        "tip": "lab",
+        "profesor": "I.Andries",
+        "cabinet": "404/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "I.Andries",
+        "cabinet": "145a/4",
+        "paritate": "imp",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Calcul Num. \u0026 MO",
+        "tip": "curs",
+        "profesor": "T.Capcelea",
+        "cabinet": "113/4",
+        "paritate": "par",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "I.Andries",
+        "cabinet": "145a/4",
+        "paritate": "par",
+        "subgrupa": "I"
+      }
+    ]
+  },
+  {
+    "numeZi": "Joi",
+    "lectii": [
+      {
+        "ora": "8:00-9:30",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "M.Croitor",
+        "cabinet": "113/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "T.Capcelea",
+        "cabinet": "404/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Intel. Artif.",
+        "tip": "lab",
+        "profesor": "V.Gricorcea",
+        "cabinet": "145b/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "G.Marin",
+        "cabinet": "145a/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "T.Capcelea",
+        "cabinet": "328/4",
+        "paritate": "par",
+        "subgrupa": "I"
+      }
+    ]
+  },
+  {
+    "numeZi": "Vineri",
+    "lectii": [
+      {
+        "ora": "8:00-9:30",
+        "disciplina": "M.Croitor",
+        "tip": "lab",
+        "profesor": "M.Croitor",
+        "cabinet": "145b/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "9:45-11:15",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "N.Plesca",
+        "cabinet": "401/4",
+        "paritate": "-",
+        "subgrupa": "II"
+      },
+      {
+        "ora": "9:45-11:15",
+        "disciplina": "Pachet Optional",
+        "tip": "lab",
+        "profesor": "T.Capcelea",
+        "cabinet": "328/4",
+        "paritate": "-",
+        "subgrupa": "I"
+      },
+      {
+        "ora": "11:30-13:00",
+        "disciplina": "ASDC",
+        "tip": "curs",
+        "profesor": "L.Novac",
+        "cabinet": "213a/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "13:30-15:00",
+        "disciplina": "Calcul Num. \u0026 MO",
+        "tip": "curs",
+        "profesor": "T.Capcelea",
+        "cabinet": "404/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      },
+      {
+        "ora": "15:15-16:45",
+        "disciplina": "CNMO",
+        "tip": "lab",
+        "profesor": "T.Capcelea",
+        "cabinet": "328/4",
+        "paritate": "-",
+        "subgrupa": "-"
+      }
+    ]
+  },
+  {
+    "numeZi": "Sambata",
+    "lectii": [
+      {
+        "ora": "17:00-18:30",
+        "disciplina": "Nume disciplina",
+        "tip": "curs/lab/sem",
+        "profesor": "Nume Profesor",
+        "cabinet": "Nr.cabinet",
+        "paritate": "par/imp/-",
+        "subgrupa": "I/II/-"
+      }
+    ]
+  }
+]
