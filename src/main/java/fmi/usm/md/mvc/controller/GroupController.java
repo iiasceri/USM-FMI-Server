@@ -1,6 +1,7 @@
 package fmi.usm.md.mvc.controller;
 
 import fmi.usm.md.mvc.model.Group;
+import fmi.usm.md.mvc.model.User;
 import fmi.usm.md.mvc.service.GroupService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.ServletContext;
 import java.io.*;
+import java.util.List;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
@@ -61,6 +63,10 @@ public class GroupController {
 
     @RequestMapping(value = "/errorGroup", method = GET)
     public String groupsErrorHandler(Model model){
+
+        if (userService.getAllUsers().size() == 0)
+            return "login";
+
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         String userName;
         if (principal instanceof UserDetails)

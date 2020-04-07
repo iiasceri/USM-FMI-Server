@@ -1,9 +1,6 @@
 package fmi.usm.md.mvc.controller;
 
-import fmi.usm.md.mvc.model.Group;
-import fmi.usm.md.mvc.model.Status;
-import fmi.usm.md.mvc.model.SubGroup;
-import fmi.usm.md.mvc.model.User;
+import fmi.usm.md.mvc.model.*;
 import fmi.usm.md.mvc.service.GroupService;
 import fmi.usm.md.mvc.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -67,7 +64,12 @@ public class UserController {
 
     @RequestMapping(value = "/register", method = GET)
     public String showRegisterPage(Model model, @ModelAttribute("user") User user) {
-        model.addAttribute("groupList", groupService.getAllGroups());
+        List<Group> groupList = groupService.getAllGroups();
+        boolean isGroupListEmpty = false;
+        if (groupList.size() == 0)
+            isGroupListEmpty = true;
+        model.addAttribute("isGroupListEmpty", isGroupListEmpty);
+        model.addAttribute("groupList", groupList);
         return "register";
     }
 
@@ -103,6 +105,8 @@ public class UserController {
             user.setSubGroup(SubGroup.Fara);
         }
         user.setPassword(BCrypt.hashpw(user.getPassword(), hash));
+        if (userService.getAllUsers().size() == 0)
+            user.setPrivilege(Privilege.ADMIN);
         userService.add(user);
         return "redirect:/show-groups";
     }

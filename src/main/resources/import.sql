@@ -1,0 +1,2 @@
+INSERT INTO groups (id, groupname) VALUES (1, 'IA1602');
+INSERT INTO users (id, username, password, mail, familyname, status, privilege, gender, group_id, subgroup) VALUES (1, 'nick', '$2a$10$mL0Xwpe8NThYuToTCepO3ua2W3GsKMKzkbeSQYPz4THgoVO.dvhOi', 'nick@g.c.k', 'Nick Iasceri', 'ACTIVE', 'ADMIN', 'MALE', 1, 'I');

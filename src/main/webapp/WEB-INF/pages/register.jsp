@@ -9,15 +9,41 @@
     <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.css">
 </head>
 <body>
 <div align="center">
     <div style="width: 300px; height: 500px;">
-        <form:form method="POST" action="${pageContext.request.contextPath}/register" modelAttribute="user" cssClass="frm">
+        <%
+            Boolean isGroupListEmpty = (Boolean) request.getAttribute("isGroupListEmpty");
+            if (isGroupListEmpty) {
+        %>
+        <p>Pentru a putea crea primul utilizator este necesara macar o grupa creati una:</p>
+        <form:form method="POST" action="${pageContext.servletContext.contextPath}/add-group" modelAttribute="group"
+                   cssClass="frm">
+            <div class="container" align="left">
+                <p style="color:red">${error}</p>
+                <label>Numele grupei</label>
+                <input type="text" name="name" required="required" class="inp"/>
+
+                    <%--<label>Anul [1-3]</label>--%>
+                    <%--<input type="number" name="year" required="required" class="inp"/>--%>
+
+                <button type="submit" class="btn">Creaza Grupa</button>
+
+            </div>
+        </form:form>
+        <%
+        } else {
+        %>
+        <form:form method="POST" action="${pageContext.request.contextPath}/register" modelAttribute="user"
+                   cssClass="frm">
             <div class="imgcontainer">
-                <img src="<c:url value="/resources/pictures/usm_bottle_green_400x400.png" />" alt="Avatar" class="avatar">
+                <img src="<c:url value="/resources/pictures/usm_bottle_green_400x400.png" />" alt="Avatar"
+                     class="avatar">
             </div>
             <h3 align="center" style="color:#009b76;">Completati Campurile!</h3>
 
@@ -42,7 +68,7 @@
                 <br>
                 <label style="margin-right: 15px">Grupa:</label>
                 <select name="groupName" id="groupName" required="required">
-                    <c:forEach var="groups" items="${groupList}" >
+                    <c:forEach var="groups" items="${groupList}">
                         <option value="${groups.name}">${groups.name}</option>
                     </c:forEach>
                 </select>
@@ -54,14 +80,19 @@
                 <button type="submit" class="btn">Inregistreaza-ma</button>
             </div>
 
-
         </form:form>
+        <%
+            }
+        %>
         <div align="right">
              <a href="<c:url value="/logout" />">Iesire</a>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                crossorigin="anonymous"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.ui.position.js"></script>

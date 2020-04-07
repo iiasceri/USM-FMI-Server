@@ -24,7 +24,7 @@ public class Group {
     @GeneratedValue(strategy = SEQUENCE)
     private int id;
 
-    @Column(name = "name")
+    @Column(name = "groupname")
     private String name;
 
 //    @Column(name = "year")
