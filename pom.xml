@@ -10,7 +10,7 @@
     <properties>
         <spring.version>5.2.5.RELEASE</spring.version>
         <spring.security.version>5.3.1.RELEASE</spring.security.version>
-        <postgresql.version>42.2.12</postgresql.version>
+        <postgresql.version>42.4.1</postgresql.version>
         <lombok.version>1.18.4</lombok.version>
     </properties>
 
